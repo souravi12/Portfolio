@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Souravi Das — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <div class="logo">Souravi Das</div>
+    <nav>
+      <ul id="navList">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="#contact">Get in Touch</a>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" style="border-top:none;">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="badge"><span class="badge-dot"></span> Open to opportunities</div>
+        <h1>Souravi Das</h1>
+        <p class="hero-tagline">Grab a coffee and take a look around.</p>
+        <div class="hero-stack">Python · Flask · SQL · MySQL</div>
+        <p class="hero-sub">B.Tech Computer Science graduate (KIIT, 2026). I build backend systems and security tools — access control, encryption, network scanning.</p>
+<a class="btn btn-secondary" href="Resume_Souravi.pdf" download>⬇ Download Resume</a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-blob"></div>
+        <img class="hero-illustration" src="hero-illustration.jpeg" alt="Illustration of Souravi Das working as a software engineer">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-head">
+      <div class="section-eyebrow">About</div>
+      <h2>A bit about my path</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm <strong>Souravi Das</strong>, a B.Tech Computer Science graduate from <strong>KIIT University (2022–2026)</strong>. My focus is backend development with a strong pull toward security-minded engineering — systems that handle authentication, data protection, and access control correctly.</p>
+        <p>During my internship at <strong>Coal India Limited (WCL)</strong>, I built a full visitor management system from scratch — Flask, MySQL, role-based auth — that replaced a paper logbook with a working digital check-in flow. Outside of that, I've built tools around the parts of security I find genuinely interesting: password strength scoring, multi-algorithm encryption, and port scanning.</p>
+        <p>Right now I'm also working as a <strong>GTM Engineer at Go Marg</strong>, building structured B2B data pipelines — a different kind of systems thinking, but the same instinct for clean, reliable data flow.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Roles completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">4</div>
+          <div class="stat-label">Projects shipped</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">2026</div>
+          <div class="stat-label">KIIT graduate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Security-focused builds</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-head">
+      <div class="section-eyebrow">Skills</div>
+      <h2>What I work with</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card languages">
+        <h3>Languages</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+          <span class="chip">SQL</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+        </div>
+      </div>
+      <div class="skill-card tools">
+        <h3>Frameworks &amp; Tools</h3>
+        <div class="chip-row">
+          <span class="chip">Flask</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">Git</span>
+          <span class="chip">VS Code</span>
+        </div>
+      </div>
+      <div class="skill-card gtm">
+        <h3>Data &amp; GTM Tools</h3>
+        <div class="chip-row">
+          <span class="chip">Apollo.io</span>
+          <span class="chip">Salesforce</span>
+          <span class="chip">Excel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS — the star section -->
+  <section id="projects">
+    <div class="section-head">
+      <div class="section-eyebrow">Projects</div>
+      <h2>What I've built</h2>
+      <p class="section-sub">Four projects spanning access control, encryption, and network security — each built end-to-end with Flask.</p>
+    </div>
+    <div class="projects-grid">
+
+      <div class="proj-card">
+        <div class="proj-shot">
+          <span class="proj-shot-label">📸 add screenshot here</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-name">Visitor Management System</span>
+            <span class="proj-tag tag-access">Access control</span>
+          </div>
+          <span class="proj-stack">Flask · MySQL · Session Auth</span>
+          <p class="proj-desc">Built during my internship at Coal India Limited (WCL). Handles visitor registration, role-based authentication, and session management — replacing a manual paper-based check-in process with a fully digital one.</p>
+          <div class="proj-links">
+            <a class="proj-link" href="https://github.com/souravi12" target="_blank" rel="noopener">GitHub →</a>
+            <a class="proj-link disabled">Demo (private — internal system)</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-shot">
+          <span class="proj-shot-label">📸 add screenshot here</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-name">Password Analyzer</span>
+            <span class="proj-tag tag-security">Security</span>
+          </div>
+          <span class="proj-stack">Flask · Python · Rule-Based Scoring</span>
+          <p class="proj-desc">Scores password strength across five categories using rule-based checks, giving instant, specific feedback instead of a vague strong/weak label.</p>
+          <div class="proj-links">
+            <a class="proj-link" href="https://github.com/souravi12/Password_Analyzer" target="_blank" rel="noopener">GitHub →</a>
+            <a class="proj-link" href="#" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-shot">
+          <span class="proj-shot-label">📸 add screenshot here</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-name">Encryption Toolkit</span>
+            <span class="proj-tag tag-security">Security</span>
+          </div>
+          <span class="proj-stack">Flask · AES · DES · RSA</span>
+          <p class="proj-desc">Encrypts and decrypts text using AES, DES, and RSA with real-time output, so you can compare how each algorithm transforms the same input.</p>
+          <div class="proj-links">
+            <a class="proj-link" href="https://github.com/souravi12/Encryption" target="_blank" rel="noopener">GitHub →</a>
+            <a class="proj-link" href="#" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-shot">
+          <span class="proj-shot-label">📸 add screenshot here</span>
+        </div>
+        <div class="proj-body">
+          <div class="proj-top">
+            <span class="proj-name">Port Scanner</span>
+            <span class="proj-tag tag-security">Security</span>
+          </div>
+          <span class="proj-stack">Python · Flask · Socket Scanning</span>
+          <p class="proj-desc">Web-based UI for scanning user-defined port ranges on a target host, with extraction logic that structures raw scan output into a readable result.</p>
+          <div class="proj-links">
+            <a class="proj-link" href="https://github.com/souravi12/Port_Scanner" target="_blank" rel="noopener">GitHub →</a>
+            <a class="proj-link" href="#" target="_blank" rel="noopener">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-head">
+      <div class="section-eyebrow">Experience</div>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">May 2026 —<br>Present</div>
+        <div>
+          <div class="tl-role">GTM Engineer</div>
+          <div class="tl-org">Go Marg · Remote</div>
+          <ul class="tl-list">
+            <li>Built structured B2B lead pipelines using Apollo.io, with data hygiene covering deduplication, enrichment, and segmentation.</li>
+            <li>Mapped targeting criteria to data workflows for pipeline reporting.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">Feb 2026 —<br>May 2026</div>
+        <div>
+          <div class="tl-role">SDR</div>
+          <div class="tl-org">Sprouts.ai · Bengaluru, Karnataka</div>
+          <ul class="tl-list">
+            <li>Managed structured B2B prospect data across Salesforce CRM and internal platforms.</li>
+            <li>Qualified B2B prospects by researching company profiles and market fit.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">May 2025 —<br>June 2025</div>
+        <div>
+          <div class="tl-role">Software Engineering Intern</div>
+          <div class="tl-org">Coal India Limited (WCL) · Nagpur, Maharashtra</div>
+          <ul class="tl-list">
+            <li>Designed and implemented a Flask + MySQL web app for visitor registration and access control.</li>
+            <li>Integrated role-based authentication and session management to protect sensitive visitor data.</li>
+            <li>Demonstrated a fully digital visitor check-in system to WCL headquarters, replacing manual paper-based workflows.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-head">
+      <div class="section-eyebrow">Education</div>
+      <h2>Academic background</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div>
+          <div class="edu-school">KIIT, Bhubaneswar</div>
+          <div class="edu-detail">B.Tech, Computer Science — CGPA 6.99</div>
+        </div>
+        <div class="edu-date">2022 — 2026</div>
+      </div>
+      <div class="edu-card">
+        <div>
+          <div class="edu-school">St. Paul, Nagpur</div>
+          <div class="edu-detail">Higher Secondary (MSBSHSE) — 74%</div>
+        </div>
+        <div class="edu-date">2020 — 2022</div>
+      </div>
+      <div class="edu-card">
+        <div>
+          <div class="edu-school">Mont Fort Secondary High School, Ballarpur</div>
+          <div class="edu-detail">Secondary (CBSE) — 77.2%</div>
+        </div>
+        <div class="edu-date">2018 — 2020</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="contact-card" id="contact">
+      <h2>Let's talk</h2>
+      <p>Open to backend and software engineering roles — reach out anytime.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:souravidas12@yahoo.com">Email Me →</a>
+        <a class="btn btn-secondary" href="https://linkedin.com/in/souravidas" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-secondary" href="https://github.com/souravi12" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="foot-meta">souravidas12@yahoo.com · +91 93221 96451 · Rajura, Maharashtra · last updated June 2026</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
